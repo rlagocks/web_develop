@@ -1,0 +1,25 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 100vw;
+  height: 60px;
+}
+.button {
+  border-radius: 25px;
+  border: 1px solid #dbdbdb;
+
+  /* padding : 12 3 6 9 */
+  padding: 10px 16px 10px 16px;
+
+  font-size: 20px;
+  font-weight: bold;
+
+  /* 마우스 올렸을 때 커서 바뀌는 CSS */
+  cursor: pointer;
+}
+.selected {
+  background-color: rgb(82, 85, 232);
+  color: white;
+}

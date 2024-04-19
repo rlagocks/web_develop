@@ -1,0 +1,44 @@
+.apple {
+  /* 자식의 배치도 css */
+  display: flex;
+  /* 가운데로 맞춰줘 */
+  justify-content: center;
+  /* 자식들의 간격을 10px */
+  gap: 10px;
+
+  background-color: white;
+  width: 400px;
+  border-radius: 10px;
+  /* 두께 스타일 색상*/
+  border: 1px solid #dbdbdb;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+}
+.icon {
+  display: flex;
+  /* 가운데로 맞춰줘 */
+  align-items: center;
+  font-size: 30px;
+}
+.button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  justify-content: center;
+}
+.emailIcon {
+  background-color: skyblue;
+  color: white;
+}
+.appleIcon {
+  background-color: black;
+  color: white;
+}

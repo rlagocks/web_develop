@@ -1,0 +1,24 @@
+.title {
+  padding: 25px 0 25px 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 20px;
+}
+.pic > img {
+  font-size: 30px;
+  border-radius: 10%;
+}
+.font {
+  padding-left: 6px;
+  font-size: 15px;
+}

@@ -1,0 +1,97 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.palette {
+  display: flex;
+  /* 자식들이 균등하게 자리 차지하는 CSS */
+  flex: 1 1 auto;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+}
+
+.TURQUOISE {
+  background-color: #1abc9c;
+}
+
+.EMERALD {
+  background-color: #2ecc71;
+}
+
+.PETER_RIVER {
+  background-color: #3498db;
+}
+
+.AMETHYST {
+  background-color: #9b59b6;
+}
+
+.WET_ASPHALT {
+  background-color: #34495e;
+}
+
+.GREEN_SEA {
+  background-color: #16a085;
+}
+
+.NEPHRITIS {
+  background-color: #27ae60;
+}
+
+.BELIZE_HOLE {
+  background-color: #2980b9;
+}
+
+.WISTERIA {
+  background-color: #8e44ad;
+}
+
+.MIDNIGHT_BLUE {
+  background-color: #2c3e50;
+}
+
+.SUN_FLOWER {
+  background-color: #f1c40f;
+}
+
+.CARROT {
+  background-color: #e67e22;
+}
+
+.ALIZARIN {
+  background-color: #e74c3c;
+}
+
+.CLOUDS {
+  background-color: #ecf0f1;
+}
+
+.CONCRETE {
+  background-color: #95a5a6;
+}
+
+.ORANGE {
+  background-color: #f39c12;
+}
+
+.PUMPKIN {
+  background-color: #d35400;
+}
+
+.POMEGRANATE {
+  background-color: #c0392b;
+}
+
+.SILVER {
+  background-color: #bdc3c7;
+}
+
+.ASBESTOS {
+  background-color: #7f8c8d;
+}
