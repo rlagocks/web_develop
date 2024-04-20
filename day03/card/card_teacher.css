@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "JalnanGothic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  width: 280px;
+  height: 380px;
+  border-radius: 12px;
+  background-size: cover;
+  padding: 20px;
+  filter: brightness(1.07);
+  transition: all 0.5s ease 1s;
+}
+
+.card:hover {
+  filter: brightness(0.95);
+}
+
+.one {
+  background-image: url(villa.jpg);
+}
+.two {
+  background-image: url(villa1.jpg);
+}
+.three {
+  background-image: url(villa2.jpg);
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+
+.category {
+  font-family: "Pretendard-Regular";
+  font-size: 20px;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+  width: fit-content;
+  /* text-decoration: underline; */
+}
+
+.title {
+  font-family: "JalnanGothic";
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.desc {
+  font-family: "Pretendard-Regular";
+  font-size: 18px;
+}
