@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+.box {
+  width: 280px;
+  height: 450px;
+  background-color: #dbdbdb;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.box:hover {
+  background-color: #dbdbdb;
+  filter: brightness(0.3);
+}
+
+.one {
+  background-image: url(coffee1.png);
+}
+
+.two {
+  background-image: url(coffee2.png);
+}
+
+.three {
+  background-image: url(coffee3.png);
+}
+
+.four {
+  background-image: url(coffee4.png);
+}
+
+article {
+  width: 280px;
+  height: 280px;
+  background-size: cover;
+  transition: all 0.5s ease;
+  margin: 30px 0px;
+}
+
+article:hover {
+  transform: scale(1.05);
+}
+
+.gift {
+  margin-top: 30px;
+}
+
+.gift > span {
+  border: 1px solid black;
+  color: white;
+  padding: 4px;
+  background-color: blue;
+  font-weight: bold;
+  margin-top: 30px;
+  width: fit-content;
+}
